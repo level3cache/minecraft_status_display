@@ -13,4 +13,5 @@ execute as @a[scores={l3_status.index=2..},team=!l3_afk.afk,team=!l3_status.vibe
 scoreboard players enable @a setStatus_Bambus
 execute as @a[scores={setStatus_Bambus=1..}] run scoreboard players set @s l3_status.index 3
 scoreboard players set @a setStatus_Bambus 0
-execute as @s[scores={l3_status.index=3..},team=!l3_afk.afk,team=!l3_status.bambus] run team join l3_status.bambus @s
+execute as @a[scores={l3_status.index=3..},team=!l3_afk.afk,team=!l3_status.bambus] run team join l3_status.bambus @s
+
