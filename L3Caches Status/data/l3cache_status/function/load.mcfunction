@@ -36,9 +36,9 @@ team modify l3_status.bambus suffix [" [",{"text":"B","color":"dark_green"},{"te
 # index 4 gambler
 scoreboard objectives add setStatus_Gambler trigger
 team add l3_status.gambler Gambler
-team modify l3_status.gambler suffix ["[",{"text":"Gambler","color":"#ff0000"},"] "]
+team modify l3_status.gambler suffix [" [",{"text":"Gambler","color":"#ff0000"},"] "]
 
 # index 5 simensianer
 scoreboard objectives add setStatus_Simensianer trigger
 team add l3_status.simensianer Simensianer
-team modify l3_status.simensianer prefix [" [",{"text":"Simensianer","color":"#009999"},"]"]
+team modify l3_status.simensianer suffix [" [",{"text":"Simensianer","color":"#009999"},"]"]
