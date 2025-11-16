@@ -46,4 +46,4 @@ team modify l3_status.siemensianer suffix [" [",{"text":"Siemensianer","color":"
 # index 6 medizinmann
 scoreboard objectives add setStatus_MedizinMann trigger
 team add l3_status.medizinmann MedizinMann
-team modify l3_status.medizinmann suffix ["[",{"text":"+","color":"#ff0000"},"MedizinMann",{"text":"+","color":"#ff0000"},"]"]
+team modify l3_status.medizinmann suffix [" [",{"text":"+","color":"#ff0000"},"MedizinMann",{"text":"+","color":"#ff0000"},"]"]
