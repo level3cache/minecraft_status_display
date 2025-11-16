@@ -38,7 +38,12 @@ scoreboard objectives add setStatus_Gambler trigger
 team add l3_status.gambler Gambler
 team modify l3_status.gambler suffix [" [",{"text":"Gambler","color":"#ff0000"},"] "]
 
-# index 5 simensianer
-scoreboard objectives add setStatus_Simensianer trigger
-team add l3_status.simensianer Simensianer
-team modify l3_status.simensianer suffix [" [",{"text":"Simensianer","color":"#009999"},"]"]
+# index 5 siemensianer
+scoreboard objectives add setStatus_Siemensianer trigger
+team add l3_status.siemensianer Siemensianer
+team modify l3_status.siemensianer suffix [" [",{"text":"Siemensianer","color":"#009999"},"]"]
+
+# index 6 medizinmann
+scoreboard objectives add setStatus_MedizinMann trigger
+team add l3_status.medizinmann MedizinMann
+team modify l3_status.medizinmann suffix ["[",{"text":"+","color":"#ff0000"},"MedizinMann",{"text":"+","color":"#ff0000"},"]"]

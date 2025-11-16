@@ -25,7 +25,12 @@ execute as @a[scores={setStatus_Gambler=1..}] run scoreboard players set @s l3_s
 scoreboard players set @a setStatus_Gambler 0
 execute as @a[scores={l3_status.index=4..},team=!l3_afk.afk,team=!l3_status.gambler] run team join l3_status.gambler @s
 
-scoreboard players enable @a setStatus_Simensianer
-execute as @a[scores={setStatus_Simensianer=1..}] run scoreboard players set @s l3_status.index 5
-scoreboard players set @a setStatus_Simensianer 0
-execute as @a[scores={l3_status.index=5..},team=!l3_afk.afk,team=!l3_status.simensianer] run team join l3_status.simensianer @s
+scoreboard players enable @a setStatus_Siemensianer
+execute as @a[scores={setStatus_Siemensianer=1..}] run scoreboard players set @s l3_status.index 5
+scoreboard players set @a setStatus_Siemensianer 0
+execute as @a[scores={l3_status.index=5..},team=!l3_afk.afk,team=!l3_status.siemensianer] run team join l3_status.siemensianer @s
+
+scoreboard players enable @a setStatus_MedizinMann
+execute as @a[scores={setStatus_MedizinMann=1..}] run scoreboard players set @s l3_status.index 6
+scoreboard players set @a setStatus_MedizinMann 0
+execute as @a[scores={l3_status.index=6..},team=!l3_afk.afk,team=!l3_status.medizinmann] run team join l3_status.medizinmann @s
