@@ -36,4 +36,4 @@ team modify l3_status.bambus prefix ["[",{"text":"B","color":"dark_green"},{"tex
 # index 4 gambler
 scoreboard objectives add setStatus_Gambler trigger
 team add l3_status.gambler gambler
-team modify l3_status.gambler prefix ["[",{"text":"Gambler","color":"#ffd700"},"] "]
+team modify l3_status.gambler prefix ["[",{"text":"Gambler","color":"#ff0000"},"] "]
