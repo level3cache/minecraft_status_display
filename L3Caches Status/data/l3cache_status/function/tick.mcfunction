@@ -24,3 +24,8 @@ scoreboard players enable @a setStatus_Gambler
 execute as @a[scores={setStatus_Gambler=1..}] run scoreboard players set @s l3_status.index 4
 scoreboard players set @a setStatus_Gambler 0
 execute as @a[scores={l3_status.index=4..},team=!l3_afk.afk,team=!l3_status.gambler] run team join l3_status.gambler @s
+
+scoreboard players enable @a setStatus_Simensianer
+execute as @a[scores={setStatus_Simensianer=1..}] run scoreboard players set @s l3_status.index 5
+scoreboard players set @a setStatus_Simensianer 0
+execute as @a[scores={l3_status.index=5..},team=!l3_afk.afk,team=!l3_status.simensianer] run team join l3_status.simensianer @s
