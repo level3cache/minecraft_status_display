@@ -18,6 +18,7 @@ scoreboard objectives remove setStatus_VibeCoder
 scoreboard objectives remove setStatus_Gambler
 scoreboard objectives remove setStatus_Siemensianer
 scoreboard objectives remove setStatus_MedizinMann
+scoreboard objectives remove setStatus_TheCollector
 team remove l3_status.clear
 team remove l3_status.bademeister
 team remove l3_status.bambus
@@ -25,3 +26,4 @@ team remove l3_status.vibecoder
 team remove l3_status.gambler
 team remove l3_status.siemensianer
 team remove l3_status.medizinmann
+team remove l3_status.theCollector
