@@ -47,3 +47,8 @@ team modify l3_status.siemensianer suffix [" [",{"text":"Siemensianer","color":"
 scoreboard objectives add setStatus_MedizinMann trigger
 team add l3_status.medizinmann MedizinMann
 team modify l3_status.medizinmann suffix [" [",{"text":"+","color":"#ff0000"},"MedizinMann",{"text":"+","color":"#ff0000"},"]"]
+
+# index 7 TheCollector
+scoreboard objectives add setStatus_TheCollector trigger
+team add l3_status.theCollector TheCollector
+team modify l3_status.theCollector suffix [{"text":" [","color":"white"},{"text":"T","color":"#ff9500"},{"text":"h","color":"#ea8900"},{"text":"e","color":"#d57c00"},{"text":" ","color":"#bf7000"},{"text":"C","color":"#aa6300"},{"text":"o","color":"#955700"},{"text":"l","color":"#804b00"},{"text":"l","color":"#6a3e00"},{"text":"e","color":"#553200"},{"text":"c","color":"#402500"},{"text":"t","color":"#2a1900"},{"text":"o","color":"#150c00"},{"text":"r","color":"black"},{"text":"]","color":"white"}]
