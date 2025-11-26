@@ -34,3 +34,8 @@ scoreboard players enable @a setStatus_MedizinMann
 execute as @a[scores={setStatus_MedizinMann=1..}] run scoreboard players set @s l3_status.index 6
 scoreboard players set @a setStatus_MedizinMann 0
 execute as @a[scores={l3_status.index=6..},team=!l3_afk.afk,team=!l3_status.medizinmann] run team join l3_status.medizinmann @s
+
+scoreboard players enable @a setStatus_TheCollector
+execute as @a[scores={setStatus_TheCollector=1..}] run scoreboard players set @s l3_status.index 7
+scoreboard players set @a setStatus_TheCollector 0
+execute as @a[scores={l3_status.index=7..},team=!l3_afk.afk,team=!l3_status.theCollector] run team join l3_status.theCollector @s
